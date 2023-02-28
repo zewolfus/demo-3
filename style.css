@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(5, 70, 5);
+}
+.giris form {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url(image/bg3.jpg);
+    background-size: 600px;
+    background-position:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.giris form h1 {
+    margin-top: 100px;
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.giris form input {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+}
+.txt {
+    margin: 15px 0;
+    border-radius: 18px;
+}
+.btn {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: red;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}
+.btn:hover{
+    transform: scale(0.90);
+    background: green;
+    color: white;
+}
+.giris form a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+.giris form a:hover {
+    color: white;
+}
